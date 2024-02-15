@@ -1,22 +1,34 @@
-*{
+* {
     font-family: "Epilogue", sans-serif;
     padding: 0;
-    background-color: #ECE9FD;
+    margin: 0; /* Adicionando margem 0 para evitar espaçamento extra */
+    box-sizing: border-box; /* Isso garante que padding e bordas não aumentem a largura do elemento */
 }
 
-.container-principal{
-    display: flex;
+body {
+    background-color: #ECE9FD; /* Defina o background padrão para o corpo */
+}
+
+.container-principal {
+    display: flex; /* Para alinhar os filhos na mesma linha */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    margin-top: 8rem;
+    align-items: center; /* Centraliza os elementos verticalmente */
 }
 
 .container-section {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    flex: 0 0 30%; /* Define a largura como 30% do container-principal */
+    padding: 20px; /* Adiciona algum espaçamento interno */
     border: 1px solid red;
-    margin: 0 auto;
+    display: flex; /* Adiciona display flex para organizar os elementos dentro */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente os elementos */
+    padding: 1rem;
+    height: 300px;
+    gap: 20px;
 }
 
-.container-section p{
+.container-section p {
     font-size: 16px;
     color: rgba(10, 0, 57, 0.64);
 }
@@ -26,14 +38,15 @@
     color: #090039;
 }
 
-.container-ordem{
-    display: flex;
-    flex-direction: column;
+.container-ordem {
+    flex: 0 0 30%; /* Define a largura como 30% do container-principal */
+    padding: 20px; /* Adiciona algum espaçamento interno */
     border: 1px solid rgb(0, 0, 0);
-    width: 30%;
+    display: flex; /* Adiciona display flex para organizar os elementos dentro */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente os elementos */
+    height: 200px;
 }
-
-
 
 .h3 {
     color: #7158ef;
