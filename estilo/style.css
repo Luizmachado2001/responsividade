@@ -2,13 +2,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
     padding: 0;
-    background-color: #CCCCCC;
+    background-color: #ECE9FD;
 }
 
-.sobre{
+main{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 700px;
+}
+.container-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 60%;
-    margin: 0 auto;
+}
+
+.container-section h1 {
+    font-size: 2rem;
+}
+
+.h3 {
+    color: #7178F3;
 }
