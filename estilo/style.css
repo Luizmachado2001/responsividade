@@ -5,20 +5,15 @@
     background-color: #ECE9FD;
 }
 
-main{
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-section {
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid red;
-    height: 700px;
-}
 .container-section {
+    height: 400px;
     display: flex;
     flex-direction: column;
+    width: 50%;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 5rem;
+    justify-content: flex-start;
 }
 
 .container-section h1 {
