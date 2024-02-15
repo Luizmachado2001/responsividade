@@ -3,5 +3,5 @@ HTML e CSS <br>
 Git e Github
 
 
-Projeto
-O projeto Responsivo é um projeto para praticar e treinar as tecnologias aprendidas no decorrer do curso. Acesse o projeto
+<h2>Projeto</h2>
+<p>O projeto Responsivo é um projeto para praticar e treinar as tecnologias aprendidas no decorrer do curso. Acesse o projeto</p>
