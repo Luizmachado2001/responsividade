@@ -13,6 +13,7 @@ body {
     display: flex; /* Para alinhar os filhos na mesma linha */
     justify-content: center; /* Centraliza os elementos horizontalmente */
     margin-top: 8rem;
+    height: 500px;
     align-items: center; /* Centraliza os elementos verticalmente */
     align-self: center;
 }
