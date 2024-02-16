@@ -1,4 +1,4 @@
-<h1>Esse projeto foi desenvolvido com as seguintes tecnologias</h1>
+<h2>Esse projeto foi desenvolvido com as seguintes tecnologias</h2>
 HTML e CSS <br>
 Git e Github
 
