@@ -19,7 +19,6 @@ body {
 }
 
 .container-section {
-    flex: 0 0 30%; /* Define a largura como 30% do container-principal */
     padding: 20px; /* Adiciona algum espaçamento interno */
     display: flex; /* Adiciona display flex para organizar os elementos dentro */
     flex-direction: column; /* Alinha os elementos verticalmente */
